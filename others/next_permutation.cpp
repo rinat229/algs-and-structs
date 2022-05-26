@@ -1,6 +1,6 @@
 #include <vector>
 
-void nextPermutation(vector<int>& nums) {
+void nextPermutation(std::vector<int>& nums) {
     int j = nums.size() - 2;
     while(j != -1 && nums[j] >= nums[j + 1]){
         --j;
